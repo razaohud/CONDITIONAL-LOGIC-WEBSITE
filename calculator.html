@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="number.html">Number</a>
+  <a href="age.html">Age</a>
+  <a href="marks.html">Marks</a>
+</nav>
+
+<div class="container">
+  <h1>Mini Calculator</h1>
+
+  <label>First Number:</label>
+  <input type="number" id="num1">
+
+  <label>Second Number:</label>
+  <input type="number" id="num2">
+
+  <label>Operator:</label>
+  <select id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+
+  <button onclick="calculate()">Calculate</button>
+
+  <div id="calcResult" class="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
